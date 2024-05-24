@@ -9,5 +9,10 @@ public class Main {
         System.out.println(stack.top());
         System.out.println(stack.getMin());
 
+        maxProduct pr = new maxProduct();
+        System.out.println(pr.maxProduct(new int[] {1,2,3,4,5}));
+        System.out.println(pr.getMax(new int[] {1,2,3,4,5}));
+        System.out.println(pr.getSecondMax(new int[] {1,2,3,4,5} , pr.getMax(new int[] {1,2,3,4,5})));
+
     }
 }
