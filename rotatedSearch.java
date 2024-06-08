@@ -11,7 +11,9 @@ public class rotatedSearch {
         if (arr[mid] == target) {
             return mid;
         }
+        // check if first half is sorted
         if (arr[start] <= arr[mid]) {
+            // target is in left half
             if (target >= arr[start] && target <= arr[mid]) {
                 return searchRotatedArr(arr, target, start, mid - 1);
             }else {
@@ -19,6 +21,7 @@ public class rotatedSearch {
 
             }
         }
+        // otherwise the right half must be sorted
         if (target >= arr[mid] && target <= arr[end]) {
             return searchRotatedArr(arr, target, mid + 1, end);
         }
