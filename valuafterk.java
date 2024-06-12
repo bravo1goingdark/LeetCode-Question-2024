@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class valuafterk {
     public int valueAfterKSeconds(int n, int k) {
