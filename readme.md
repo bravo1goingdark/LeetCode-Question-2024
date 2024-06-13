@@ -1,1 +1,1 @@
-<U><B><p>Total Question Solved :</p></B></U> <strong>64</strong>
+Total Question Solved : 64
