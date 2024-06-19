@@ -1,3 +1,5 @@
+import java.util.Set;
+import java.util.HashSet;
 public class maxStringPair {
 
     public int maximumNumberOfStringPairs(String[] words) {
