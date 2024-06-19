@@ -1,1 +1,1 @@
-Total Question Solved : 73
+Total Question Solved : 74
