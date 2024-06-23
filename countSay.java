@@ -3,6 +3,7 @@ public class countSay {
         System.out.println(countAndSay(4));
     }
     public static String countAndSay(int n) {
+
         if (n <= 0) {
             return "";
         } else if (n == 1) {
