@@ -4,10 +4,10 @@ public class isUniVal {
     public boolean isUnivalTree(TreeNode root) {
         boolean isUniValued = true;
         int rootValue = root.val;
-        return bfsUsingStack(root, isUniValued, rootValue);
+        return dfsUsingStack(root, isUniValued, rootValue);
     }
 
-    private boolean bfsUsingStack(TreeNode node, boolean arr, int value) {
+    private boolean dfsUsingStack(TreeNode node, boolean arr, int value) {
 
         if (node == null) {
             return true;
