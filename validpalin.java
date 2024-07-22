@@ -48,7 +48,6 @@ class Pair {
 }
 
 // O(N) & O(1)
-
 class Solution {
     public boolean isPalindrome(String s) {
         if (s.isEmpty()) {
