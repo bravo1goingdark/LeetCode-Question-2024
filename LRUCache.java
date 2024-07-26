@@ -1,7 +1,6 @@
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.Map;
-import java.util.Queue;
+
 
 class LRUCache {
     private Map<Integer,Node> map;
